@@ -1,0 +1,29 @@
+#Container { /*The page needs to be at 1366x768 so the cotainer sets the page to be that*/
+	width: 1366px;
+	height: 768px;
+	align-content: center;
+}
+
+
+#Menu {
+    float: left;
+    padding-right: 5px; /* puts a small space in between the menu bar, banner, and display images*/
+	
+}
+#Navigation{ /*Had to make the menu in one selector instead of multiple as the boxes would not
+	stay toghther and line up properly*/
+	width: 167px;
+    height: 630px;
+    display: block;
+    background-color: #00FFE6;
+    color: #000000;	
+	font-size: 16.5px;
+}
+#RedBox{
+}
+#BlueBox{
+}
+
+#footer {
+	padding-top: 0px;
+}
